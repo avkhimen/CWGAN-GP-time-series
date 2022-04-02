@@ -6,6 +6,8 @@ Conditional Wasserstein GAN with gradient penalty for the generation of syntheti
 
 Propriatary dataset was used to train the conditional WGAN with gradient penalty. Any dataset with shape (num_samples, num_features) will work.
 
+The code was based on generating synthetic images, so whenever word 'images' appears, it should be interpreted as 'time-series' instead. I will fix this soon.
+
 Run the cells in sequence in `cwgan-gp_time_series.ipynb` jupyter notebook. Final cell contains code to create synthetic 
 image conditioned on a label.
 
